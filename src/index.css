@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", "Segoe UI", Roboto, sans-serif;
+  --color-wa-blue: #1b8cf0;
+  --color-wa-bar: #f6f6f6;
+  --color-wa-out: #dcf8c6;
+  --color-wa-teal: #1f9d6b;
+  --color-wa-ink: #111b21;
+  --color-wa-meta: #8696a0;
+  --color-wa-wall: #efeae2;
+}
+
+@layer base {
+  body {
+    @apply m-0 bg-[#dfe3e0] font-sans text-wa-ink antialiased;
+  }
+  button {
+    @apply cursor-pointer;
+  }
+}
+
+.wallpaper {
+  background-color: #efeae2;
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22360%22%20height%3D%22360%22%20viewBox%3D%220%200%20360%20360%22%20fill%3D%22none%22%20stroke%3D%22rgb%28120%2C105%2C80%29%22%20stroke-opacity%3D%22.10%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cg%20transform%3D%22translate%2819%2022%29%20rotate%2818%29%20scale%281.01%29%22%3E%3Cpath%20d%3D%22M0%2010v-20M-7%20-3l7-7%207%207%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28379%2022%29%20rotate%2818%29%20scale%281.01%29%22%3E%3Cpath%20d%3D%22M0%2010v-20M-7%20-3l7-7%207%207%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%2884%2020%29%20rotate%2813%29%20scale%281.17%29%22%3E%3Cpath%20d%3D%22M-10%206h20M-6%206v-8a6%206%200%200112%200v8%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28147%2030%29%20rotate%2823%29%20scale%280.82%29%22%3E%3Ccircle%20r%3D%229%22%2F%3E%3Cpath%20d%3D%22M-4%20-2h.01M4%20-2h.01M-5%203q5%205%2010%200%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28211%2034%29%20rotate%28-34%29%20scale%280.83%29%22%3E%3Cpath%20d%3D%22M-8%20-9h16l-3%2018h-10z%22%2F%3E%3Cpath%20d%3D%22M-5%20-9q5-8%2010%200%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28268%2034%29%20rotate%286%29%20scale%281.14%29%22%3E%3Ccircle%20r%3D%223%22%2F%3E%3Cpath%20d%3D%22M0%20-11v4M0%207v4M-11%200h4M7%200h4%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28331%2021%29%20rotate%2811%29%20scale%281.08%29%22%3E%3Cpath%20d%3D%22M-8%20-9h16l-3%2018h-10z%22%2F%3E%3Cpath%20d%3D%22M-5%20-9q5-8%2010%200%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%2869%2096%29%20rotate%28-17%29%20scale%281.09%29%22%3E%3Ccircle%20r%3D%229%22%2F%3E%3Cpath%20d%3D%22M-4%20-2h.01M4%20-2h.01M-5%203q5%205%2010%200%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28116%2093%29%20rotate%2818%29%20scale%280.95%29%22%3E%3Ccircle%20r%3D%223%22%2F%3E%3Cpath%20d%3D%22M0%20-11v4M0%207v4M-11%200h4M7%200h4%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28174%20101%29%20rotate%2816%29%20scale%281.06%29%22%3E%3Cpath%20d%3D%22M-10%200h20M0%20-10v20M-7%20-7l14%2014M7%20-7l-14%2014%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28231%2093%29%20rotate%2827%29%20scale%280.97%29%22%3E%3Cpath%20d%3D%22M-12%200q6-10%2012%200t12%200%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28306%2090%29%20rotate%28-18%29%20scale%280.94%29%22%3E%3Cpath%20d%3D%22M-12%200q6-10%2012%200t12%200%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28353%2090%29%20rotate%2828%29%20scale%280.82%29%22%3E%3Cpath%20d%3D%22M-11%20-4a6%206%200%200112%200%206%206%200%200112%200c0%208-12%2014-12%2014S-11%204-11%20-4z%22%20transform%3D%22scale%28.8%29%20translate%28-1%20-3%29%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28-7%2090%29%20rotate%2828%29%20scale%280.82%29%22%3E%3Cpath%20d%3D%22M-11%20-4a6%206%200%200112%200%206%206%200%200112%200c0%208-12%2014-12%2014S-11%204-11%20-4z%22%20transform%3D%22scale%28.8%29%20translate%28-1%20-3%29%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%2839%20150%29%20rotate%281%29%20scale%281.19%29%22%3E%3Crect%20x%3D%22-11%22%20y%3D%22-8%22%20width%3D%2222%22%20height%3D%2216%22%20rx%3D%223%22%2F%3E%3Ccircle%20r%3D%224%22%2F%3E%3Cpath%20d%3D%22M-5%20-8l2-4h6l2%204%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%2890%20145%29%20rotate%28-29%29%20scale%280.83%29%22%3E%3Ccircle%20r%3D%223%22%2F%3E%3Cpath%20d%3D%22M0%20-11v4M0%207v4M-11%200h4M7%200h4%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28150%20147%29%20rotate%28-16%29%20scale%281.01%29%22%3E%3Cpath%20d%3D%22M-11%20-4a6%206%200%200112%200%206%206%200%200112%200c0%208-12%2014-12%2014S-11%204-11%20-4z%22%20transform%3D%22scale%28.8%29%20translate%28-1%20-3%29%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28209%20160%29%20rotate%28-31%29%20scale%281.11%29%22%3E%3Cpath%20d%3D%22M-10%200h20M0%20-10v20M-7%20-7l14%2014M7%20-7l-14%2014%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28277%20142%29%20rotate%28-34%29%20scale%281.15%29%22%3E%3Cpath%20d%3D%22M-10%206h20M-6%206v-8a6%206%200%200112%200v8%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28333%20155%29%20rotate%2816%29%20scale%281.16%29%22%3E%3Ccircle%20r%3D%223%22%2F%3E%3Cpath%20d%3D%22M0%20-11v4M0%207v4M-11%200h4M7%200h4%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%2854%20206%29%20rotate%28-10%29%20scale%281.04%29%22%3E%3Ccircle%20r%3D%2210%22%2F%3E%3Cpath%20d%3D%22M0%20-6v6l4%203%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28128%20208%29%20rotate%2824%29%20scale%280.97%29%22%3E%3Cpath%20d%3D%22M-12%200q6-10%2012%200t12%200%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28181%20209%29%20rotate%28-15%29%20scale%280.86%29%22%3E%3Cpath%20d%3D%22M0%208c-14-9-10-20%200-12%2010-8%2014%203%200%2012z%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28242%20217%29%20rotate%28-33%29%20scale%281.00%29%22%3E%3Ccircle%20r%3D%2210%22%2F%3E%3Cpath%20d%3D%22M0%20-6v6l4%203%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28310%20215%29%20rotate%284%29%20scale%281.05%29%22%3E%3Cpath%20d%3D%22M-11%20-4a6%206%200%200112%200%206%206%200%200112%200c0%208-12%2014-12%2014S-11%204-11%20-4z%22%20transform%3D%22scale%28.8%29%20translate%28-1%20-3%29%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28368%20203%29%20rotate%28-20%29%20scale%280.85%29%22%3E%3Cpath%20d%3D%22M-10%200h20M0%20-10v20M-7%20-7l14%2014M7%20-7l-14%2014%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%288%20203%29%20rotate%28-20%29%20scale%280.85%29%22%3E%3Cpath%20d%3D%22M-10%200h20M0%20-10v20M-7%20-7l14%2014M7%20-7l-14%2014%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%2821%20265%29%20rotate%28-35%29%20scale%280.81%29%22%3E%3Cpath%20d%3D%22M-8%20-9h16l-3%2018h-10z%22%2F%3E%3Cpath%20d%3D%22M-5%20-9q5-8%2010%200%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%2895%20280%29%20rotate%28-18%29%20scale%280.93%29%22%3E%3Cpath%20d%3D%22M0%208c-14-9-10-20%200-12%2010-8%2014%203%200%2012z%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28159%20273%29%20rotate%28-24%29%20scale%280.95%29%22%3E%3Cpath%20d%3D%22M-10%206h20M-6%206v-8a6%206%200%200112%200v8%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28208%20270%29%20rotate%28-25%29%20scale%281.14%29%22%3E%3Cpath%20d%3D%22M0%20-11l11%2011-11%2011-11-11z%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28272%20280%29%20rotate%284%29%20scale%281.19%29%22%3E%3Cpath%20d%3D%22M0%208c-14-9-10-20%200-12%2010-8%2014%203%200%2012z%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28328%20262%29%20rotate%285%29%20scale%281.00%29%22%3E%3Cpath%20d%3D%22M-12%200q6-10%2012%200t12%200%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%2859%20340%29%20rotate%28-26%29%20scale%280.93%29%22%3E%3Cpath%20d%3D%22M0%208c-14-9-10-20%200-12%2010-8%2014%203%200%2012z%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28123%20322%29%20rotate%2811%29%20scale%281.12%29%22%3E%3Cpath%20d%3D%22M0%20-11l11%2011-11%2011-11-11z%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28174%20329%29%20rotate%28-8%29%20scale%280.81%29%22%3E%3Cpath%20d%3D%22M0%208c-14-9-10-20%200-12%2010-8%2014%203%200%2012z%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28249%20328%29%20rotate%28-25%29%20scale%280.96%29%22%3E%3Ccircle%20r%3D%223%22%2F%3E%3Cpath%20d%3D%22M0%20-11v4M0%207v4M-11%200h4M7%200h4%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28292%20338%29%20rotate%28-29%29%20scale%280.83%29%22%3E%3Cpath%20d%3D%22M0%208c-14-9-10-20%200-12%2010-8%2014%203%200%2012z%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28357%20325%29%20rotate%28-26%29%20scale%280.98%29%22%3E%3Cpath%20d%3D%22M-10%200h20M0%20-10v20M-7%20-7l14%2014M7%20-7l-14%2014%22%2F%3E%3C%2Fg%3E%3Cg%20transform%3D%22translate%28-3%20325%29%20rotate%28-26%29%20scale%280.98%29%22%3E%3Cpath%20d%3D%22M-10%200h20M0%20-10v20M-7%20-7l14%2014M7%20-7l-14%2014%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-size: 360px 360px;
+}
+
+.tail-in::before,
+.tail-out::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 9px;
+  height: 13px;
+}
+.tail-in::before {
+  left: -7px;
+  background: #fff;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+.tail-out::before {
+  right: -7px;
+  background: #dcf8c6;
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+@keyframes pop {
+  from { opacity: 0; transform: translateY(6px) scale(0.98); }
+}
+.msg-in {
+  animation: pop 0.2s ease-out;
+}
+
+@keyframes dot {
+  0%, 60%, 100% { opacity: 0.35; transform: translateY(0); }
+  30% { opacity: 1; transform: translateY(-3px); }
+}
+.typing-dot {
+  animation: dot 1.1s infinite;
+}
+.typing-dot:nth-child(2) { animation-delay: 0.15s; }
+.typing-dot:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes sheet {
+  from { transform: translateY(100%); }
+}
+.sheet-in {
+  animation: sheet 0.25s ease-out;
+}
